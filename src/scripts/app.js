@@ -1,4 +1,4 @@
-import {getWelcomeText} from './app/console'
+import {getWelcomeText} from './app/welcome' 
 
 console.log(getWelcomeText("WarpJapan"))
 
