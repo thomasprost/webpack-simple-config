@@ -1,0 +1,43 @@
+// Just an example, remove everything and start from a fresh sass file. 
+
+html {
+  overflow: hidden auto;
+}
+
+body {
+  background: url(../images/patrick-hendry-759554-unsplash.jpg) no-repeat;
+  background-size: cover;
+  font-family: $body-font;
+  color: rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  ul {
+    display: flex;
+    
+
+    li {
+      display: block;
+      margin-left: 15px;
+      
+    }
+  }
+}
+
+
+
+
